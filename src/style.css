@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #885df1;
+  color: #4fa6e0;
 }
 
 header {
@@ -50,4 +50,44 @@ footer {
   color: white;
   margin-left: 5px;
   font-size: 16px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-details {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 60, 0.4);
+  font-weight: 500px;
+}
+
+.weather-details strong {
+  color: greenyellow;
+}
+
+.weather-temperature-container {
+  display: flex;
+}
+
+.weather-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.weather-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.weather-unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
